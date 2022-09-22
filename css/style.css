@@ -3,8 +3,8 @@
     --right-bg-color: rgba(43,43,43, 0.8);
     --left-btn-hover-color:rgba(87,84,236, 1);
     --right-btn-hover-color:rgba(28,122,28, 1);
-    --hover-width: 75% ;
-    --other-width: 25% ;
+    --hover-width: 68% ;
+    --other-width: 32% ;
     --speed:1000ms
 }
 
@@ -68,9 +68,10 @@ h1{
 }
 .split.left{
     left: 0;
-    background: url('../img/playstation.jpg');
+    background: url('../img/playstaition5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
 }
 .split.left::before{
     content: '';
@@ -85,6 +86,7 @@ h1{
     background: url('../img/Xbox-series-X.jpg');
     background-repeat: no-repeat;
     background-size: cover ;
+    background-position: center center;
     
 }
 .split.right::before{
